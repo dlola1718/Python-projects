@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "compile": "^0.0.2",
+    "truffle": "^5.3.8"
+  }
+}

@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "fileName",
+						"type": "string"
+					}
+				],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "fileName",
+						"type": "string"
+					},
+					{
+						"name": "hashOfFile",
+						"type": "string"
+					}
+				],
+				"name": "storeHash",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "showAllFileNames",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Final_Program/hashUpload.sol": "HashUpload"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Final_Program/hashUpload.sol": {
+			"keccak256": "0xd560eb1ccb7a58773ecf23531685db8527427b6332efded94f1d92b918be3c91",
+			"urls": [
+				"bzzr://f7f27dccc3c664a4c216085525446ae9a68a43a86e825c7e6a0b56e723f1fc75"
+			]
+		}
+	},
+	"version": 1
+}

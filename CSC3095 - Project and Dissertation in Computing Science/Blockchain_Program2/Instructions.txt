@@ -1,0 +1,14 @@
+Hi
+
+Instructions:
+
+
+0: Install all dependencies using pip3 install -r requirements.txt 
+...web3, pip3, flask, werkzeug, jsonify
+1: Run Ganache. Make sure ganche port is set to 7545
+2: Run CompanyA.py    // It act as a web server
+3: Run main.py       //terminal shows status
+4: Choose your desired option
+
+Regards,
+Damilola Ijiwola
