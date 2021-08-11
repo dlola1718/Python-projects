@@ -3,6 +3,14 @@
 # Shows the most recent holdings disclosed by an institution or fund in 13F or N-PORT filings
 
 
+
+#paused paused paused paused
+
+
+
+
+
+
 import requests
 
 institution_name = "scion-asset-management-llc"
